@@ -267,3 +267,29 @@
 	background-color: var(--themecolor, #7E9680);
 	color: #FFF;
 }
+
+.section-img {
+    display: block;
+    position: absolute;
+    top: -30px;
+    right: 0;
+    width: 52%;
+    height: 100%;
+}
+
+@media (min-width: 992px){
+.section-img .section-img-sm {
+    position: absolute;
+    top: auto;
+    bottom: -30px;
+    left: -40px;
+    right: auto;
+    width: 360px;
+    height: auto;
+}
+}
+
+.section-img img {
+    width: 100%;
+    border: 10px solid #FFF;
+}
