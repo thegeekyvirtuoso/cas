@@ -228,3 +228,34 @@
 @media (max-width: 991.98px) {
     .services-grid .feature-box .fbox-icon i { background-color: #FFF; }
 }
+
+.play-icon {
+	transition: transform .3s ease;
+}
+
+.play-icon:hover {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.play-icon i {
+	width: 80px;
+	height: 80px;
+	line-height: 81px;
+	font-size: 28px;
+	padding-left: 5px;
+	text-align: center;
+	border-radius: 50%;
+	color: #000;
+	background-color: #FFF;
+	z-index: 2;
+	transition: all .3s ease;
+}
+
+.play-icon:hover i {
+	background-color: #7E9680;
+	background-color: var(--themecolor, #7E9680);
+	color: #FFF;
+}
